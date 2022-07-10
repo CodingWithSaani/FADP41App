@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">FADP41App</string>
+    <string name="uni_title">University of Central Punjab</string>
+    <string name="click_btn">Click on it</string>
+    <string name="click_btn_text">Click For Information</string>
+    <string name="math_factory_title">Math Factory</string>
+    <string name="first_value_tv">First Value:</string>
+    <string name="second_value_Tv">Second Value:</string>
+    <string name="calculate_btn_text">Calculate</string>
+    <string name="smsScreenTopLabelTV">SMS Screen</string>
+    <string name="smsBodyTV">SMS Body</string>
+    <string name="smsReceiverPhoneTV">SMS Receiver Phone</string>
+    <string name="sendSMSBtn">Send SMS</string>
+</resources>

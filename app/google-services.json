@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "460513320308",
+    "project_id": "adp42s22",
+    "storage_bucket": "adp42s22.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460513320308:android:ec97f651327173bc53a021",
+        "android_client_info": {
+          "package_name": "com.tutorials180.fadp41app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "460513320308-33d3143tokvilf769th7ijrvgskjgehc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVdw9bsAtTexw05OUK66yqTfekcN7BwmQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "460513320308-33d3143tokvilf769th7ijrvgskjgehc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

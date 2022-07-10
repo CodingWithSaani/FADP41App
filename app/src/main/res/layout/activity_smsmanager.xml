@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SMSPackageManager.SMSManagerActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/smsTopLabel"
+        android:text="@string/smsScreenTopLabelTV"
+        android:textSize="20sp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/smsBodyTV"
+        android:layout_below="@id/smsTopLabel"
+        android:text="@string/smsBodyTV"
+        android:textSize="16sp"
+        android:layout_marginLeft="16dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/smsBodyET"
+        android:layout_below="@id/smsBodyTV"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/smsPhoneTV"
+        android:layout_below="@id/smsBodyET"
+        android:text="@string/smsReceiverPhoneTV"
+        android:textSize="16sp"
+        android:layout_marginLeft="16dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/smsPhoneET"
+        android:layout_below="@id/smsPhoneTV"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:inputType="number"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/smsSendBtn"
+        android:text="@string/sendSMSBtn"
+        android:layout_below="@id/smsPhoneET"
+        android:layout_centerInParent="true"/>
+
+
+</RelativeLayout>

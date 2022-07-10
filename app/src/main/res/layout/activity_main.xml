@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/new_bg_color"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/topLabel"
+        android:text="@string/math_factory_title"
+        android:textSize="30sp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/firstValueTitle"
+        android:layout_below="@id/topLabel"
+        android:text="@string/first_value_tv"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/firstValueET"
+        android:layout_below="@id/firstValueTitle"
+        android:inputType="number"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/secondValueTitle"
+        android:layout_below="@id/firstValueET"
+        android:text="@string/second_value_Tv"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/secondValueET"
+        android:layout_below="@id/secondValueTitle"
+        android:inputType="number"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/resultBtn"
+        android:layout_below="@id/secondValueET"
+        android:layout_centerInParent="true"
+        android:text="@string/calculate_btn_text"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/resultTV"
+        android:layout_below="@id/resultBtn"
+        android:text="Result is:"
+        android:textSize="20sp"
+        android:layout_centerInParent="true"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/moveBtn"
+        android:layout_below="@id/resultTV"
+        android:text="Start Second Activity"
+        android:layout_centerInParent="true"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/moveToAdapterBtn"
+        android:layout_below="@id/moveBtn"
+        android:text="Start Adapter Activity"
+        android:layout_centerInParent="true"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/moveToCustomAdapterBtn"
+        android:layout_below="@id/moveToAdapterBtn"
+        android:text="Start Custom Adapter Activity"
+        android:layout_centerInParent="true"
+        />
+
+</RelativeLayout>
